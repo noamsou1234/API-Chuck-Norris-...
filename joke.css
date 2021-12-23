@@ -1,0 +1,118 @@
+/* body {
+  width: 100%;
+  background-image: url(https://www.kids-world.org.il/wp-content/uploads/Smiley-0019.jpg);
+  opacity: 90%;
+} */
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: #ffc107;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  padding: 10px;
+  justify-content: flex-start;
+}
+
+.list-res {
+  width: 800px;
+  height: 500px;
+  margin: -10px 50px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.list-cate {
+  width: 300px;
+  height: 500px;
+  margin: -20px 50px;
+}
+
+.joke {
+  border: 1px #ccc solid;
+  padding: 12px;
+}
+
+.li {
+  border: 1px black solid;
+  padding: 12px;
+}
+.category {
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.category :hover {
+  color: #ffc107;
+}
+
+.result {
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#search {
+  width: 340px;
+  height: 50px;
+  border: 1px black solid;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 15px;
+}
+.input {
+  width: 400px;
+  height: 50px;
+  margin: 48px 627px;
+}
+
+#random {
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  background: #ffc107;
+  color: #fff;
+}
+
+.ran {
+  border: 1px black solid;
+  padding: 12px;
+}
+
+.get-random {
+  width: 150px;
+  height: 50px;
+  margin: -118px 1050px 5px;
+}
+
+@media (max-width: 768px) {
+  .result {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  h2 {
+    align-self: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* @media (max-width: 800px) {
+} */
